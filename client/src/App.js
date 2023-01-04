@@ -66,16 +66,14 @@ function App() {
     <p
       className="text-muted lead "
       style={{ marginTop: "10px", marginLeft: "5px" }}
-    >
+    >   Made by Jay,<br/>
       <small>Connected Account - {account}</small>
     </p>
     <div className="container">
       <Buy state={state} />
       <Memos state={state} />
     </div>
-   <footer style={{ position:" fixed", height: "100px", bottom: "0"}}>
-     Made by Jayjeet
-</footer>
+ 
   </div>
   );
 }
